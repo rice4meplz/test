@@ -38,6 +38,6 @@
       "./scripts/loadEffects.js"
   ],
   "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "manifest": "",
-  "download": ""   
+  "manifest": "https://raw.githubusercontent.com/rice4meplz/test/edit/master/jb2a_patreon/module.json",
+  "download": "https://github.com/rice4meplz/test/edit/master/jb2a_patreon/module.json"   
 }
