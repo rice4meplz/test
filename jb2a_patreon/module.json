@@ -1,0 +1,43 @@
+{
+  "name": "jb2a_patreon",
+  "title": "JB2A - Patreon Complete Collection",
+  "description": "<p>This pack is a replacement for our free module.</p><p> This library of carefully crafted animated assets such as spell templates, tokens and tiles will bring life to your sessions. They are based on the DnD5e ruleset but can be used with other systems as you see fit.</p><p>Compendiums of actors and macros are also provided. Go to our <a href='http://jb2a.com/templates/FAQ.html'>FAQ and Troubleshooting section</a> if you have a question or an issue. Join our <a href='https://discord.gg/gmd8MAPX4m'>Discord server</a> for any further question or if you want to exchange with the community.</p>",
+  "author": "Gazkhan#8192 and Wassily#8035",
+  "url": "https://www.patreon.com/JB2A",
+  "version": "0.2.0",
+  "minimumCoreVersion": "0.7.0",
+  "compatibleCoreVersion": "0.7.9",
+  "packs": [
+        {
+            "entity": "Macro",            
+            "label": "JB2A Macros",
+            "name": "jb2a-macros",
+            "path": "packs/jb2a-macros.db",
+            "module": "jb2a_patreon"
+        },
+        {
+            "entity": "Actor",            
+            "label": "JB2A Actors",
+            "name": "jb2a-actors",
+            "path": "packs/jb2a-actors.db",
+            "module": "jb2a_patreon"
+        }
+  ],
+  "media": [
+    {
+      "type": "cover",
+      "url": "jb2acover01.jpg"
+    }
+  ],
+  "scripts": [
+      "./scripts/settings.js",   
+      "./scripts/window_popup.js"   
+  ],
+  "type": "module",
+  "esmodules": [
+      "./scripts/loadEffects.js"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "manifest": "",
+  "download": ""   
+}
